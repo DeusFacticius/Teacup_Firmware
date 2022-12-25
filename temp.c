@@ -248,6 +248,7 @@ static uint16_t temp_max6675_read(temp_sensor_t i) {
   // No delay required, see
   // https://github.com/Traumflug/Teacup_Firmware/issues/22
 
+  uint16_t temp;
   // Read MSB.
   temp = spi_rw(0) << 8;
   // Read LSB.
