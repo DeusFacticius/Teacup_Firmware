@@ -48,7 +48,8 @@
 #define STEPS_PER_M_X             52493
 
 // #define STEPS_PER_M_Y            40000
-#define STEPS_PER_M_Y             78740
+// #define STEPS_PER_M_Y             78740
+#define STEPS_PER_M_Y             104987
 
 // #define STEPS_PER_M_Z          320000
 #define STEPS_PER_M_Z             2267716
