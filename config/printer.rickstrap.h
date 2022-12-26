@@ -48,8 +48,8 @@
 #define STEPS_PER_M_X             52493
 
 // #define STEPS_PER_M_Y            40000
-// #define STEPS_PER_M_Y             78740
-#define STEPS_PER_M_Y             104987
+#define STEPS_PER_M_Y             78740
+//#define STEPS_PER_M_Y             104987
 
 // #define STEPS_PER_M_Z          320000
 #define STEPS_PER_M_Z             2267716
@@ -61,11 +61,14 @@
 */
 // #define MAXIMUM_FEEDRATE_X       6000
 // #define MAXIMUM_FEEDRATE_Y       6000
-#define MAXIMUM_FEEDRATE_X       2000
-#define MAXIMUM_FEEDRATE_Y       2000
+//#define MAXIMUM_FEEDRATE_X       800
+#define MAXIMUM_FEEDRATE_X	1000
+//#define MAXIMUM_FEEDRATE_Y       800
+#define MAXIMUM_FEEDRATE_Y	1000
 #define MAXIMUM_FEEDRATE_Z       200
 //#define MAXIMUM_FEEDRATE_E       6000
-#define MAXIMUM_FEEDRATE_E       400
+//#define MAXIMUM_FEEDRATE_E       100
+#define MAXIMUM_FEEDRATE_E	200
 
 /** \def SEARCH_FEEDRATE_X SEARCH_FEEDRATE_Y SEARCH_FEEDRATE_Z
   Used when doing precision endstop search and as default feedrate. No

@@ -26,3 +26,6 @@
 // #include "config/printer.mendel.h"
 //#include "config/printer.wolfstrap.h"
 #include "config/printer.rickstrap.h"
+
+// temporarily enable debug
+#define DEBUG
